@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import doorBackdrop from "./img/door_backdrop.jpg";
+//import doorBackdrop from "./img/door_backdrop.jpg";
 
+const doorBackdrop = "https://yt3.googleusercontent.com/ytc/APkrFKZ2v4h8IGP2Eo1FW422Dc0-RB5DAu3Rc5nNSVsY=s900-c-k-c0x00ffffff-no-rj"
 export const StyledDoor = styled.div`
   padding-top: 100%;
   position: relative;
   cursor: pointer;
   .front {
-    background: center / cover url(${props => props.background});
+    background: center / cover url(${doorBackdrop});
     position: absolute;
     top: 0;
     left: 0;
@@ -31,17 +32,24 @@ export const StyledDoor = styled.div`
   }
   .back {
     position: absolute;
-    background: center / cover url(${doorBackdrop});
+    background: center / cover url(https://img.youtube.com/vi/${props => props.background}/maxresdefault.jpg);
     top: 0px;
     left: 0px;
     z-index: 1;
     transform: rotateY(180deg);
     p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-family: "Dancing Script", cursive;
       color: #fff;
-      padding: 10px;
-      font-size: 1.4rem;
-      text-align: center;
+      padding: 20px;
+      width: 50%;
+      height: 50%;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.7);
+      font-weight: 700;
+      font-size: 4rem;
     }
     &.open {
       z-index: 2;
