@@ -172,6 +172,16 @@ export default function HomePage(){
                         <CTAButton href="/julereisen-til-atlantis">Til Kalenderen</CTAButton>
                     </CalendarContent>
                 </CalendarCard>
+
+                <CalendarCard>
+                    <CalendarImageWrapper>
+                        <img src="https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg" alt="Julereisen til Karibien" />
+                    </CalendarImageWrapper>
+                    <CalendarContent>
+                        <CalendarTitle>Julereisen til Karibien</CalendarTitle>
+                        <CTAButton href="/julereisen-til-karibien">Til Kalenderen</CTAButton>
+                    </CalendarContent>
+                </CalendarCard>
             </CalendarGrid>
 
             <InfoCard>
