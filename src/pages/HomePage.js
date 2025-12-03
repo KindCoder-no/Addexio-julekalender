@@ -175,7 +175,7 @@ export default function HomePage(){
 
                 <CalendarCard>
                     <CalendarImageWrapper>
-                        <img src="https://img.youtube.com/vi/VIDEO_ID_1/maxresdefault.jpg" alt="Julereisen til Karibien" />
+                        <img src="https://img.youtube.com/vi/FrrZSSRaZeU/maxresdefault.jpg" alt="Julereisen til Karibien" />
                     </CalendarImageWrapper>
                     <CalendarContent>
                         <CalendarTitle>Julereisen til Karibien</CalendarTitle>
