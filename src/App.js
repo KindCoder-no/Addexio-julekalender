@@ -7,7 +7,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
-    const [doors, setDoors] = React.useState([]);
     return (
       <BrowserRouter>
         <Routes>
